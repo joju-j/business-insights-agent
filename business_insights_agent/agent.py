@@ -16,7 +16,7 @@ from google.adk.agents import Agent, SequentialAgent
 
 from .tools import query_business_data
 
-MODEL = "gemini-2.5-flash"
+MODEL = "gemini-2.5-flash-lite"
 
 SKILLS_DIR = os.path.join(os.path.dirname(__file__), "..", "skills")
 
